@@ -1,0 +1,15 @@
+// Layout
+// ======
+
+#wrapper {
+    .responsive-layout;
+    width: 100%;
+    margin: auto;
+    overflow-x: hidden;
+    padding-top: (@navigation-padding-top + @navigation-padding-bottom) + @icon-size;
+
+    .ie8 & {
+        max-width: @ie8-max-width;
+        margin: 0 auto;
+    }
+}
